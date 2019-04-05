@@ -54,6 +54,9 @@ Password reset via email confirmation
   *	npm install --save async nodemailer
   *	Update user model with resetPasswordToken and resetPasswordExpires
   *	Create password.js to send confirmation emails and update password
+* The crypto module provides cryptographic functionality that includes a set of wrappers for OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions.
+* Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript.
+* waterfall(tasks, callbackopt) : Runs the tasks array of functions in series, each passing their results to the next in the array. However, if any of the tasks pass an error to their own callback, the next function is not executed, and the main callback is immediately called with the error.
 
 # Authorization:
 *	One cannot edit or delete posts and comments created by other users
